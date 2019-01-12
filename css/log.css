@@ -1,0 +1,150 @@
+/* localidade do trabalho */
+body > table {
+
+    background-color: #8f8a8a;
+    margin-top: 4%;
+    text-align: center;
+    margin-left:10%;
+    width: 80%;
+}
+
+/* Tela de fundo da simulacao */
+
+.tela {
+    background-color: #485274;
+}
+
+table{
+    
+    border-collapse: collapse;
+}
+table.list{
+    
+    width:100%;
+}
+
+td, th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+}
+
+/* Cores da Planilha*/
+tr:nth-child(even),table.list thead>tr {
+    color: #fff;
+    background-color: rgb(53, 54, 53);
+    
+}
+
+/* O bloco do add */
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(146, 147, 153);
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 2px solid #fff;    
+    
+}
+
+/*  */
+input[type=submit]{
+    width: 30%;
+    background-color: #ddd;
+    color: rgb(233, 219, 219);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: fantasy;
+    
+}
+
+form div.form-action-buttons{
+    text-align: right;
+    
+}
+
+/* Cor do Edit e o Delete */
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #fff;
+    margin-right: 4px;
+    
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+.tipo {
+    margin-left: 0%;
+    margin: 10px;
+    text-align: left;
+}
+#sport {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    text-align: left;
+    padding: 8px;
+    width: 10em;
+}
+#fullTime {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    text-align: left;
+    padding: 8px;
+    width: 10em;
+}
+
+#date {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    text-align: left;
+    padding: 8px;
+    width: 10em;
+}
+
+/* Cor do botao adicionar os dados */
+#button {
+    background: #e91e63;
+    background: 1px solid #fff;
+    
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+/* Bloco do treino, cores, tamanho e fontes*/
+.log {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 43%;
+    /*background: url(../img/treino1.png);
+    background-repeat: no-repeat; */
+    color: rgb(41, 207, 193);
+    
+
+}
+
+
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+#date {
+    background: #fff;
+}

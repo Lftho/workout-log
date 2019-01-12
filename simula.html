@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-br" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<!-- Estilo da simulacao -->
+	<link rel="stylesheet" href="css/log.css"> 
+	<link rel="stylesheet" href="css/tcal.css"> 
+	
+	<title>3D </title>
+</head>
+<body>
+	<header class="cd-header">
+		<a href="#0" class="cd-logo"><img src="img/Picture2.png" alt="THz | Thomaz"></a>
+		<a href="#0" class="cd-3d-nav-trigger">
+			Menu
+			<span></span>
+		</a>
+	</header> <!-- .cd-header -->
+	
+	<!--<main>
+		<div class="center">
+			<h3 class="log"></h3>
+		</div>
+	</main>-->
+	
+	<nav class="cd-3d-nav-container">
+		<ul class="cd-3d-nav">
+			
+			<!--<li class="cd-selected">
+				<a href="#0">Home</a>
+			</li> -->
+
+			<li>
+				<a href="sobre.html"> About </a>
+			</li>
+
+			<li>
+				<a href="control.html"> How to use the "Schedule your workout" </a>
+			</li>
+
+			<li>
+				<a href="simula.html"> Let's do a simulation? </a>
+			</li>
+		</ul> <!-- .cd-3d-nav -->
+
+		<span class="cd-marker color-1"></span>	
+	</nav> <!-- .cd-3d-nav-container -->
+	<div class="center">
+			<h3 class="log"> 
+					Let's practice ? </h3>
+	</div>
+	<table>
+			<tr>
+				<td>
+					<form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+						<div>
+							<label for="temp"> 1. Report time / hs:</label><label class="validation-error hide" id="fullTimeValidationError">Por favor, preencher*</label>
+							<input type="time" name="fullTime" id="fullTime" value=""> &nbsp;
+							<img src="img/tempo.png"  height="28px">
+							
+						</div>
+						<div>
+							<label class="tipo">2. Choose the type of training: </label>
+							<select id="sport">
+									<option value="Run">Run</option> 
+									<option value="Bike">Bike</option>
+									<option value="Academy">Academy</option>
+									<option value="Soccer">Soccer</option>
+									<option value="Skate">Skate</option>
+							</select> &nbsp;
+							<img src="img/corrida.ico" height="20px";>
+							
+						</div>
+						<div>
+							<label>3. Confirm the date of your training: </label>
+							<input type="text" name="date" class="tcal" id="date" value=""> &nbsp;&nbsp;
+							<img src="img/calendario.png"  height="28px">
+									
+						</div>
+	
+						<div  class="form-action-buttons">
+							<input type="submit" value="Add+" id="button">
+							
+						</div>
+					</form>
+				</td>
+				<td>
+					<table class="list" id="employeeList" >
+						<thead>
+							<tr>
+								<th>Time </th>
+								<th>Type</th>
+								<th>Date</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<!-- Barra de rodape -->		
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script>
+<script src="js/script.js"></script>
+<script src="js/tcal.js"></script> <!-- Resource jQuery -->
+<script src="js/modernizr.js"></script>
+</body>
+</html>
