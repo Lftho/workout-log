@@ -38,7 +38,7 @@ desnecessários, respeitar o tempo de descanso do corpo e construir uma evoluç�
 
 - O Detalhe Principal é que a planilha de treino, não estou conseguindo somar os dados do "Tempo". Para mostra o quanto tempo o usuário treino naquele semana ou naquele dia.
 
-## Fim do sistema - Mais terá continuidade para conseguir, criar um botão de download da planillha e novas ideia virão ##
+## Fim do sistema - Mais terá continuidade para conseguir, criar um botão de download da planillha e novas ideias para "One page" ##
 
 ## @Luiz Fernando Thomaz ##
 ## https://github.com/Lftho ##
